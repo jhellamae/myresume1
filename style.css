@@ -1,0 +1,508 @@
+{
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    list-style: none;
+
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+
+body{
+
+    background-color: #B99976;
+
+}
+
+
+
+.main-content{
+
+    min-height: 100vh;
+
+    width: 80%;
+
+    margin: 2rem auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(7, 1fr);
+
+}
+
+.left-section{
+
+    grid-column: span 2;
+
+    height: 100%;
+
+    background-color: #D2B48C;
+
+}
+
+
+
+.right-section{
+
+    grid-column: span 5;
+
+    background-color: #E5D3B3;
+
+    height: 100%;
+
+}
+
+
+
+.left-content{
+
+    padding: 1rem 3rem;
+
+}
+
+
+
+.profile{
+
+    width: 100%;
+
+    border-bottom: 2px solid #002333;
+
+}
+
+
+
+.profile img{
+
+    width: 70%;
+
+    border-radius: 50%;
+
+    border: 8px solid #002333;
+
+    padding-bottom: .10rem;
+
+    margin-left: 15%;
+
+    border-color: #ffffff
+
+}
+
+
+
+.name{
+
+    font-size: 2rem;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    padding: 1.2rem 0;
+
+
+
+}
+
+
+
+.career{
+
+    font-size: 0.78rem;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    padding-bottom: padding: 1rem;
+
+}
+
+
+
+.main-title{
+
+    font-size:1.8rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+    padding-top: 3rem;
+
+}
+
+
+
+.contact-info ul{
+
+    padding-top: 2rem 0;
+
+}
+
+
+
+.contact-info ul li{
+
+    padding: .4rem 0;
+
+    display: flex;
+
+    align-items: center;
+
+    color: #ffffff;
+
+
+
+}
+
+
+
+.contact-info ul li i{
+
+    padding-right: 1rem;
+
+    font-size: 1.2rem;
+
+    color: #ffffff;
+
+}
+
+
+
+.skills-section ul{
+
+    padding-top: 1rem;
+
+}
+
+
+
+.skills-section ul li{
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: .4rem 0;
+
+    color: #ffffff
+
+}
+
+
+
+.progress-bar{
+
+    width: 100%;
+
+    height: .4rem;
+
+    background-color: #E5D3B3;
+
+    position: relative;
+
+    border-radius: 12px;
+
+}
+
+
+
+.progress{
+
+    height:100%;
+
+    positon: absolute;
+
+    left: 0;
+
+    background-color: #D2B48C;
+
+    border-radius: 12px;
+
+}
+
+
+
+.gd-progress{
+
+    width: 70%;
+
+}
+
+
+
+.ps-progress{
+
+    width: 80%;
+
+}
+
+
+
+.c-progress{
+
+    width: 90%;
+
+}
+
+
+
+.l-progress{
+
+    width: 60%;
+
+}
+
+
+
+.ap-progress{
+
+    width: 70%;
+
+}
+
+
+
+.lc-progress{
+
+    width: 90%;
+
+}
+
+
+
+.p-progress{
+
+    width: 90%;
+
+}
+
+
+
+.v-progress{
+
+    width: 90%;
+
+}
+
+
+
+.cs-progress{
+
+    width: 90%;
+
+}
+
+
+
+.skill-title{
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    font-size: 0.90rem;
+
+}
+
+
+
+.sub-title{
+
+    padding-top: 2 rem;
+
+    font-size: 0.95rem;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+}
+
+
+
+.sub-para{
+
+    color: #ffffff;
+
+    padding: .4rem 0;
+
+}
+
+
+
+.references-section h3{
+
+    padding-bottom: 1.5rem;
+
+}
+
+
+
+.references-section li{
+
+    color: #ffffff;
+
+    padding: .2rem 0;
+
+}
+
+
+
+.references-section li i{
+
+    padding-right: .5rem;
+
+    font-size: 1.2rem;
+
+    color: #ffffff;
+
+}
+
+
+
+.right-main-content{
+
+    padding: 2rem 3rem;
+
+}
+
+
+
+.right-title{
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    padding-bottom: 1.2rem;
+
+    position: relative;
+
+}
+
+
+
+.right-title:after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 60%;
+
+    height: .2rem;
+
+    background-color: #ffffff;
+
+    border-radius: 12px;
+
+    right: 0;
+
+    top: 30%;
+
+    transform: translateY(-50%);
+
+}
+
+
+
+.para{
+
+    line-height: 1.6rem;
+
+    color: #fffffg;
+
+    font-size: 1.1rem;
+
+}
+
+
+
+.sect{
+
+    padding-bottom: 2rem;
+
+}
+
+
+
+.timeline{
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+
+.tl-title{
+
+    letter-spacing: 1px;
+
+    font-size: 1.3rem;
+
+    color: #ffffff;
+
+    text-transform: uppercase;
+
+}
+
+
+
+.tl-title-2{
+
+    letter-spacing: 1px;
+
+    font-size: 1.3rem;
+
+    color: #ffffff;
+
+    text-transform: uppercase;
+
+}
+
+.ti-title{
+
+    line-height: 1.6rem;
+
+    color: #ffffff;
+
+    font-size: 1.1rem;
+
+}
+
+
+
+.tl-title-3{
+
+    letter-spacing: 1px;
+
+    font-size: 1.3rem;
+
+    color: #ffffff;
+
+    text-transform: uppercase;
+
+
+}
